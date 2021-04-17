@@ -1,0 +1,1502 @@
+Feb 13, 2021 1:23:32 AM com.Parser <init>
+INFO: -------------------------------------------------
+-------------------------------------------------
+
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Has Inner Bracket: ((100+10-15*20/5+6*2/1*(20+10)))
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Inner Bracket: 20+10
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():20+10
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 2
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): 20
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): 20+10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: 10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): 10
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: 20 + 10
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): 30
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: 20+10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 0
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: 30
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():5
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 4
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: 30
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign not found: 30
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Resulting Inner Bracket30
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: InnerBeforeBracketsInserted: ((100+10-15*20/5+6*2/1*(20+10)))
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: s1.index:23
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: s2.index:29
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: ((100+10-15*20/5+6*2/1*(20+10)))
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 22
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: ((100+10-15*20/5+6*2/1*
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: ((100+10-15*20/5+6*2/1*30
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():32
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 30
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: Right Operand: ))
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: ((100+10-15*20/5+6*2/1*30))
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: InnerBracketsInserted: ((100+10-15*20/5+6*2/1*30))
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Sign found: ((100+10-15*20/5+6*2/1*30))
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Has Inner Bracket: ((100+10-15*20/5+6*2/1*30))
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Inner Bracket: 100+10-15*20/5+6*2/1*30
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():100+10-15*20/5+6*2/1*30
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 2
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: *
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): 20
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): 100+10-15*20/5+6*2/1*30
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 5
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: +
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: 5
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): 5
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: 20 / 5
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): 4
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: 100+10-15*20/5+6*2/1*30
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 100+10-15*
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: 100+10-15*4
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():23
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 14
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: Right Operand: +6*2/1*30
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: 100+10-15*4+6*2/1*30
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign found: 100+10-15*4+6*2/1*30
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():100+10-15*4+6*2/1*30
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 2
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: *
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): 2
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): 100+10-15*4+6*2/1*30
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: *
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: 1
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): 1
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: 2 / 1
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): 2
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: 100+10-15*4+6*2/1*30
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 14
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 100+10-15*4+6*
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: 100+10-15*4+6*2
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():20
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 17
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: Right Operand: *30
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: 100+10-15*4+6*2*30
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign found: 100+10-15*4+6*2*30
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():100+10-15*4+6*2*30
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 5
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): 15
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): 100+10-15*4+6*2*30
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 4
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: +
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: 4
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): 4
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: 15 * 4
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): 60
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: 100+10-15*4+6*2*30
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 7
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 100+10-
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: 100+10-60
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():18
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 11
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: Right Operand: +6*2*30
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: 100+10-60+6*2*30
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign found: 100+10-60+6*2*30
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():100+10-60+6*2*30
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 6
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: +
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): 6
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): 100+10-60+6*2*30
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 2
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: *
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: 2
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): 2
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: 6 * 2
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): 12
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: 100+10-60+6*2*30
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 100+10-60+
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: 100+10-60+12
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():16
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 13
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: Right Operand: *30
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: 100+10-60+12*30
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign found: 100+10-60+12*30
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():100+10-60+12*30
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 2
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: +
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): 12
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): 100+10-60+12*30
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 3
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: 30
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): 30
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: 12 * 30
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): 360
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: 100+10-60+12*30
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 100+10-60+
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: 100+10-60+360
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():15
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 14
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: 100+10-60+360
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign found: 100+10-60+360
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():100+10-60+360
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): 100
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): 100+10-60+360
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: 10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): 10
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: 100 + 10
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): 110
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: 100+10-60+360
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 0
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: 110
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():13
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 6
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: Right Operand: -60+360
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: 110-60+360
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign found: 110-60+360
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():110-60+360
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 6
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): 60
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): 110-60+360
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 3
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 6
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: 360
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): 360
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: 60 + 360
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): 420
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: 110-60+360
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 4
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 110-
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: 110-420
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 9
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: 110-420
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign found: 110-420
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():110-420
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): 110
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): 110-420
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 4
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 2
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: 420
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): 420
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: 110 - 420
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): -310
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: 110-420
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 0
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: -310
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():7
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 6
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: -310
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign not found: -310
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Resulting Inner Bracket-310
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: InnerBeforeBracketsInserted: ((100+10-15*20/5+6*2/1*30))
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: s1.index:1
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: s2.index:25
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: ((100+10-15*20/5+6*2/1*30))
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 0
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: -310
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():27
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 26
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: -310
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: InnerBracketsInserted: -310
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Sign not found: -310
+Feb 13, 2021 1:23:32 AM com.Parser <init>
+INFO: -------------------------------------------------
+-------------------------------------------------
+
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():-20--10
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 2
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): -20
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): -20--10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). detected sign
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: -10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): -10
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: -20 - -10
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): -10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: -20--10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 0
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: -10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():7
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 6
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: -10
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign not found: -10
+Feb 13, 2021 1:23:32 AM com.Parser <init>
+INFO: -------------------------------------------------
+-------------------------------------------------
+
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():-20--10+-55
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). multiple signs detected
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): -10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): -20--10+-55
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). detected sign
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 5
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 5
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: -55
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): -55
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: -10 + -55
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): -65
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: -20--10+-55
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 4
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: -20-
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: -20--65
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():11
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: -20--65
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign found: -20--65
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():-20--65
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 2
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): -20
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): -20--65
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). detected sign
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 6
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 5
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: -65
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): -65
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: -20 - -65
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): 45
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: -20--65
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 0
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: 45
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():7
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 6
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: 45
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign not found: 45
+Feb 13, 2021 1:23:32 AM com.Parser <init>
+INFO: -------------------------------------------------
+-------------------------------------------------
+
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Has Inner Bracket: -20-(-10)+-55
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Inner Bracket: -10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Resulting Inner Bracket-10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: InnerBeforeBracketsInserted: -20-(-10)+-55
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: s1.index:4
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: s2.index:8
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Created new Operand:Left
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Created new Operand:Right
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: -20-(-10)+-55
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 4
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: -20-
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: -20--10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():13
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 9
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: Right Operand: +-55
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: -20--10+-55
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: InnerBracketsInserted: -20--10+-55
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Sign found: -20--10+-55
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():-20--10+-55
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). multiple signs detected
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): -10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): -20--10+-55
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). detected sign
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 5
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 5
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: -55
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): -55
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: -10 + -55
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): -65
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: -20--10+-55
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 4
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: -20-
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: -20--65
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():11
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: -20--65
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign found: -20--65
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():-20--65
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 2
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): -20
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): -20--65
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). detected sign
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 6
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 5
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: -65
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): -65
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: -20 - -65
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): 45
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: -20--65
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 0
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: 45
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():7
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 6
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: 45
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign not found: 45
+Feb 13, 2021 1:23:32 AM com.Parser <init>
+INFO: -------------------------------------------------
+-------------------------------------------------
+
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Has Inner Bracket: -20-(-10+2)+-55
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Inner Bracket: -10+2
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():-10+2
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): -10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): -10+2
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 2
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: 2
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): 2
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: -10 + 2
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): -8
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: -10+2
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 0
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: -8
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():5
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 4
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: -8
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign not found: -8
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Resulting Inner Bracket-8
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: InnerBeforeBracketsInserted: -20-(-10+2)+-55
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: s1.index:4
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: s2.index:10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: -20-(-10+2)+-55
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 3
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: -20-
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: -20--8
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():15
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 11
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: Right Operand: +-55
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: -20--8+-55
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: InnerBracketsInserted: -20--8+-55
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Sign found: -20--8+-55
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():-20--8+-55
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 8
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). multiple signs detected
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): -8
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): -20--8+-55
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). detected sign
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 5
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 5
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: -55
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): -55
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: -8 + -55
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): -63
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: -20--8+-55
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 4
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: -20-
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: -20--63
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 9
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: -20--63
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign found: -20--63
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():-20--63
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 2
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): -20
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): -20--63
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). detected sign
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 6
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 3
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: -63
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): -63
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: -20 - -63
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): 43
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: -20--63
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 0
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: 43
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():7
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 6
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: 43
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign not found: 43
+Feb 13, 2021 1:23:32 AM com.Parser <init>
+INFO: -------------------------------------------------
+-------------------------------------------------
+
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Has Inner Bracket: (-10)
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Inner Bracket: -10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Resulting Inner Bracket-10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: InnerBeforeBracketsInserted: (-10)
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: s1.index:0
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: s2.index:4
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Created new Operand:Left
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Created new Operand:Right
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: (-10)
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 0
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: -10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():5
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 5
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: -10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: InnerBracketsInserted: -10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Sign not found: -10
+Feb 13, 2021 1:23:32 AM com.Parser <init>
+INFO: -------------------------------------------------
+-------------------------------------------------
+
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Has Inner Bracket: -0+(-10)
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Inner Bracket: -10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Resulting Inner Bracket-10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: InnerBeforeBracketsInserted: -0+(-10)
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: s1.index:3
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: s2.index:7
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Created new Operand:Left
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Created new Operand:Right
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: -0+(-10)
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 3
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: -0+
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: -0+-10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():8
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 8
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: -0+-10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: InnerBracketsInserted: -0+-10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Sign found: -0+-10
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():-0+-10
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): 0
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): -0+-10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). detected sign
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: -10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): -10
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: 0 + -10
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): -10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: -0+-10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 0
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: -10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():6
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 5
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: -10
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign not found: -10
+Feb 13, 2021 1:23:32 AM com.Parser <init>
+INFO: -------------------------------------------------
+-------------------------------------------------
+
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Has Inner Bracket: -0-(-10)
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Inner Bracket: -10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Resulting Inner Bracket-10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: InnerBeforeBracketsInserted: -0-(-10)
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: s1.index:3
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: s2.index:7
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Created new Operand:Left
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Created new Operand:Right
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: -0-(-10)
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 3
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: -0-
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: -0--10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():8
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 8
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: -0--10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: InnerBracketsInserted: -0--10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Sign found: -0--10
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():-0--10
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): 0
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): -0--10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). detected sign
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: -10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): -10
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: 0 - -10
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): 10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: -0--10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 0
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: 10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():6
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 5
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: 10
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign not found: 10
+Feb 13, 2021 1:23:32 AM com.Parser <init>
+INFO: -------------------------------------------------
+-------------------------------------------------
+
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Has Inner Bracket: 10/(-10)
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Inner Bracket: -10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Resulting Inner Bracket-10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: InnerBeforeBracketsInserted: 10/(-10)
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: s1.index:3
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: s2.index:7
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Created new Operand:Left
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Created new Operand:Right
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: 10/(-10)
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 3
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 10/
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: 10/-10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():8
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 8
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: 10/-10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: InnerBracketsInserted: 10/-10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Sign found: 10/-10
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():10/-10
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): 10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): 10/-10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). detected sign
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: -10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): -10
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: 10 / -10
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): -1
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: 10/-10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 0
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: -1
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():6
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 5
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: -1
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign not found: -1
+Feb 13, 2021 1:23:32 AM com.Parser <init>
+INFO: -------------------------------------------------
+-------------------------------------------------
+
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():10/-10
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): 10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): 10/-10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). detected sign
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: -10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): -10
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: 10 / -10
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): -1
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: 10/-10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 0
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: -1
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():6
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 5
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: -1
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign not found: -1
+Feb 13, 2021 1:23:32 AM com.Parser <init>
+INFO: -------------------------------------------------
+-------------------------------------------------
+
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():-10/-10
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): -10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): -10/-10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). detected sign
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: -10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): -10
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: -10 / -10
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): 1
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: -10/-10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 0
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: 1
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():7
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 6
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: 1
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign not found: 1
+Feb 13, 2021 1:23:32 AM com.Parser <init>
+INFO: -------------------------------------------------
+-------------------------------------------------
+
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Has Inner Bracket: (-10)/(-10)
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Inner Bracket: -10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Resulting Inner Bracket-10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: InnerBeforeBracketsInserted: (-10)/(-10)
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: s1.index:0
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: s2.index:4
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Created new Operand:Left
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Created new Operand:Right
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: (-10)/(-10)
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 0
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: -10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():11
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 5
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: Right Operand: /(-10)
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: -10/(-10)
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: InnerBracketsInserted: -10/(-10)
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Sign found: -10/(-10)
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Has Inner Bracket: -10/(-10)
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Inner Bracket: -10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Resulting Inner Bracket-10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: InnerBeforeBracketsInserted: -10/(-10)
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: s1.index:4
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: s2.index:8
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: -10/(-10)
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 3
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: -10/
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: -10/-10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():9
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 9
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: -10/-10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: InnerBracketsInserted: -10/-10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Sign found: -10/-10
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():-10/-10
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): -10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): -10/-10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). detected sign
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: -10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): -10
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: -10 / -10
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): 1
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: -10/-10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 0
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: 1
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():7
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 6
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: 1
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign not found: 1
+Feb 13, 2021 1:23:32 AM com.Parser <init>
+INFO: -------------------------------------------------
+-------------------------------------------------
+
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Has Inner Bracket: (10)/-10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Inner Bracket: 10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Resulting Inner Bracket10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: InnerBeforeBracketsInserted: (10)/-10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: s1.index:0
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: s2.index:3
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Created new Operand:Left
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Created new Operand:Right
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: (10)/-10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 0
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: 10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():8
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 4
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: Right Operand: /-10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: 10/-10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: InnerBracketsInserted: 10/-10
+Feb 13, 2021 1:23:32 AM com.Parser innerBracketParsing
+INFO: Sign found: 10/-10
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_eq.getLeftOperand():10/-10
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: 
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_sg.getLeftOperand().ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getLeftOperand
+INFO: getLeftOperand(). l_int.getLeftOperand(): 10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_eq.getRightOperand(): 10/-10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: -
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). detected sign
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 1
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). ArrayPointer: 0
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). Substring: -10
+Feb 13, 2021 1:23:32 AM com.Parser getRightOperand
+INFO: getRightOperand(). l_int.getRightOperand(): -10
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation() Equation: 10 / -10
+Feb 13, 2021 1:23:32 AM com.Parser calculateOperation
+INFO: calculateOperation(): -1
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq().l_eq received: 10/-10
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). getStartIndex: 0
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After LeftOperand: 
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). After Append Result: -1
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). l_eq.length():6
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). End index of right operand: 5
+Feb 13, 2021 1:23:32 AM com.Parser insertResultToEq
+INFO: insertResultToEq(). Returning: -1
+Feb 13, 2021 1:23:32 AM com.Parser parse
+INFO: Sign not found: -1
+Feb 13, 2021 1:23:32 AM com.Parser <init>
+INFO: -------------------------------------------------
+-------------------------------------------------
+
+Feb 13, 2021 1:23:32 AM com.Parser validEquation
+INFO: validEquation(). Invalid Equation
+Feb 13, 2021 1:23:32 AM com.Parser parse
+SEVERE: Invalid Equation, returning null
+Feb 13, 2021 1:23:32 AM com.Parser <init>
+INFO: -------------------------------------------------
+-------------------------------------------------
+
+Feb 13, 2021 1:23:32 AM com.Parser validEquation
+INFO: validEquation(). Invalid Equation
+Feb 13, 2021 1:23:32 AM com.Parser parse
+SEVERE: Invalid Equation, returning null
